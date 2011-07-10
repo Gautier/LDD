@@ -16,12 +16,12 @@ The "protocol"
 --------------
 
 The commands are one byte long and change the state of the arduino.
-There are only three different commands::
+There are only three different commands:
 
-    'A' meaning passing test (turn one LED on)
-    'B' meaning failing test (turn another LED on)
-    'C' for running test (blink the two LEDs)
-    any other byte are ignored
+    *  'A' meaning passing test (turn one LED on)
+    *  'B' meaning failing test (turn another LED on)
+    *  'C' for running test (blink the two LEDs)
+    *  any other byte are ignored
 
 Arduino side
 ------------
