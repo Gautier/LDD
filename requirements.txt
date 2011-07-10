@@ -1,0 +1,2 @@
+nose
+-e git://github.com/Gautier/python-gorun.git#egg=python-gorun
